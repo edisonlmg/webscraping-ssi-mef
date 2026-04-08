@@ -57,7 +57,7 @@ class SsiSpider(scrapy.Spider):
             return
 
         try:
-            df_inv = pd.read_csv(input_path, encoding='latin-1', sep=';')
+            df_inv = pd.read_csv(input_path)
             codes = df_inv['CODIGO_UNICO'].astype(str).unique().tolist()
             self.logger.info(f"✅ Loaded {len(codes)} investment codes.")
         except Exception as e:
