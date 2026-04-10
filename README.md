@@ -1,4 +1,4 @@
-# Web Scraping from the Investment Tracking System
+# webscraping-ssi-mef
 
 A web scraping project built with Scrapy to extract and structure data from the Investment Tracking System (SSI, by its Spanish acronym) of Peru’s Ministry of Economy and Finance. The project automates data collection for analysis, monitoring, and visualization of public investment projects.
 
