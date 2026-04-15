@@ -1,4 +1,4 @@
-# 🌐 webscraping-ssi-mef 🕷️
+# webscraping-ssi-mef
 
 A web scraping project built with Scrapy to extract and structure data from the Investment Tracking System (SSI, by its Spanish acronym) of Peru’s Ministry of Economy and Finance. The project automates data collection for analysis, monitoring, and visualization of public investment projects.
 
@@ -6,20 +6,20 @@ A web scraping project built with Scrapy to extract and structure data from the 
 
 ---
 
-## ✨ Features
+## Features
 
 - **Automated Data Extraction**: Efficiently crawls the MEF SSI portal to gather investment data. [Access the Investment Tracking System here](https://ofi5.mef.gob.pe/ssi/).
 - **Structured Data**: Transforms unstructured web content into clean, actionable formats (JSON, CSV, etc.).
 - **High Performance**: Built on Scrapy's asynchronous engine for fast and scalable data collection.
 - **Domain Specific**: Specifically tailored to handle the navigation and data structure of the Investment Tracking System.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 *   **Language:** Python 3.x
 *   **Framework:** [Scrapy](https://scrapy.org/)
 *   **Data Handling:** Scrapy Items and Pipelines for clean data processing.
 
-## 🗃️ Project Structure
+## Project Structure
 ```text
 ├── 📁 data/
 │   ├── 📁 input/                  # .csv file with investments codes
@@ -40,7 +40,7 @@ A web scraping project built with Scrapy to extract and structure data from the 
 ├── 📄 .gitignore                  # Files and folders to be ignored by Git
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Installation
 
@@ -64,7 +64,7 @@ A web scraping project built with Scrapy to extract and structure data from the 
     pip install scrapy
     ```
 
-## 💻 Usage
+## Usage
 
 To start the data extraction, execute the following command:
 
@@ -72,10 +72,10 @@ To start the data extraction, execute the following command:
 scrapy crawl ssi_spider.py
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to open issues or submit pull requests to improve the scraper.
 
-## 📄 License
+## License
 
 This project is licensed under the Apache License 2.0. See the LICENSE file for details.
